@@ -19,7 +19,7 @@ public class CreateOrgAndPhno {
 	
 	@Test
 	public void createOrgPhno() throws IOException, InterruptedException {
-		
+		//Fetching the data from the Property File
 		FileInputStream fis=new FileInputStream("./src/test/resources/V_Tiger.properties");
 		Properties p=new Properties();
 		p.load(fis);
