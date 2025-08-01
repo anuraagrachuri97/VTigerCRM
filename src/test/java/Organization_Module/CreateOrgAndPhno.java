@@ -16,6 +16,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class CreateOrgAndPhno {
+	//This is Create Organization and Phone Number Scenerio!!
 	
 	@Test
 	public void createOrgPhno() throws IOException, InterruptedException {
